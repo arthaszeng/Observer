@@ -12,6 +12,8 @@ public class main {
 
         hr2.attach(zeng);
         hr2.attach(water);
+        hr2.myNotify();
+        System.out.println();
         hr2.detach(zeng);
         hr2.myNotify();
     }
