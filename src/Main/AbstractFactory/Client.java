@@ -1,5 +1,13 @@
 package AbstractFactory;
 
+import AbstractFactory.Database.InterfaceAdmin;
+import AbstractFactory.Database.InterfaceUser;
+import AbstractFactory.Factory.AbstractFactory;
+import AbstractFactory.Factory.AccessFactory;
+import AbstractFactory.Factory.SqlFactory;
+import AbstractFactory.Product.Administrator;
+import AbstractFactory.Product.User;
+
 public class Client {
 
     public static void main (String args[]) {
@@ -36,3 +44,16 @@ public class Client {
     }
 
 }
+
+/////////////////////////////result//////////////////
+//        add a record of user in SQL database.
+//        get a record of user from SQL database.
+//        add a record of administrator in SQL database.
+//        get a record of administrator from SQL database.
+//
+//        The result after modifying database
+//
+//        add a record of user in Access database.
+//        get a record of user from Access database.
+//        add a record of administrator in access database.
+//        get a record of administrator from access database.

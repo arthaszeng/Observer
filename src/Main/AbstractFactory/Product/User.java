@@ -1,6 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.Product;
 
-public class Administrator {
+public class User {
     private int id;
     private String name;
 

@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.Factory;
+
+import AbstractFactory.Database.*;
 
 public class SqlFactory implements AbstractFactory {
     @Override

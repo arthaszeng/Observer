@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.Database;
+
+import AbstractFactory.Product.Administrator;
 
 public class AccessAdmin implements InterfaceAdmin {
 

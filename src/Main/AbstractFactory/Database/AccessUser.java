@@ -1,4 +1,6 @@
-package AbstractFactory;
+package AbstractFactory.Database;
+
+import AbstractFactory.Product.User;
 
 public class AccessUser implements InterfaceUser {
     @Override

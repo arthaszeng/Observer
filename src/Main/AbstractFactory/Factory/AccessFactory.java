@@ -1,4 +1,9 @@
-package AbstractFactory;
+package AbstractFactory.Factory;
+
+import AbstractFactory.Database.AccessAdmin;
+import AbstractFactory.Database.AccessUser;
+import AbstractFactory.Database.InterfaceAdmin;
+import AbstractFactory.Database.InterfaceUser;
 
 public class AccessFactory implements AbstractFactory {
     @Override
