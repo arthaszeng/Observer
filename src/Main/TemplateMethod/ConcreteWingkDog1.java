@@ -11,3 +11,5 @@ public class ConcreteWingkDog1 extends AbstractWingkDog {
         System.out.print("曾超伟");
     }
 }
+
+
