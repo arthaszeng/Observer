@@ -1,7 +1,7 @@
 package AbstractFactory;
 
-import AbstractFactory.Database.InterfaceAdmin;
-import AbstractFactory.Database.InterfaceUser;
+import AbstractFactory.Database.OperationOfAdmin;
+import AbstractFactory.Database.OperationOfUser;
 import AbstractFactory.Factory.AbstractFactory;
 import AbstractFactory.Factory.AccessFactory;
 import AbstractFactory.Factory.SqlFactory;
@@ -16,8 +16,8 @@ public class Client {
 
         AbstractFactory factory = new SqlFactory();
 
-        InterfaceUser iUser = factory.createUser();
-        InterfaceAdmin iAdmin = factory.createAdmin();
+        OperationOfUser iUser = factory.createUser();
+        OperationOfAdmin iAdmin = factory.createAdmin();
 
         iUser.insert(user);
         iUser.getUser(888);
@@ -29,7 +29,7 @@ public class Client {
 
         //////////////////////////////////////////////
         //if we want to use an other database,////////
-        //just modify here, only one line code;///////
+        //just modify here, only one line of code;///////
         factory = new AccessFactory();////////////////
         //////////////////////////////////////////////
 

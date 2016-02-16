@@ -4,12 +4,12 @@ import AbstractFactory.Database.*;
 
 public class SqlFactory implements AbstractFactory {
     @Override
-    public InterfaceUser createUser() {
+    public OperationOfUser createUser() {
         return new SqlUser();
     }
 
     @Override
-    public InterfaceAdmin createAdmin() {
+    public OperationOfAdmin createAdmin() {
         return new SqlAdmin();
     }
 }

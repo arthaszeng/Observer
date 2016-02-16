@@ -2,7 +2,7 @@ package AbstractFactory.Database;
 
 import AbstractFactory.Product.Administrator;
 
-public class SqlAdmin implements InterfaceAdmin {
+public class SqlAdmin implements OperationOfAdmin {
 
     @Override
     public void insert(Administrator administrator) {

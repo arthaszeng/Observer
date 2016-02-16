@@ -1,9 +1,9 @@
 package AbstractFactory.Factory;
 
-import AbstractFactory.Database.InterfaceAdmin;
-import AbstractFactory.Database.InterfaceUser;
+import AbstractFactory.Database.OperationOfAdmin;
+import AbstractFactory.Database.OperationOfUser;
 
 public interface AbstractFactory {
-    InterfaceUser createUser();
-    InterfaceAdmin createAdmin();
+    OperationOfUser createUser();
+    OperationOfAdmin createAdmin();
 }
